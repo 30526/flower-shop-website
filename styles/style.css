@@ -221,6 +221,21 @@
     .banner-text {
         margin: 0 16px;
     }
+
+    /* plants section  */
+
+    .card-container {
+        text-align: center;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 16px;
+    }
+
+    .card {
+        width: 170px;
+    }
+
+
+
 }
 
 
@@ -243,6 +258,14 @@
     .banner {
         margin: 120px 16px;
         height: auto;
+    }
+
+    /* plant section styles  */
+
+    .card-container {
+        text-align: center;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 16px;
     }
 
 }
