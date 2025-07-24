@@ -13,11 +13,13 @@
 
 * {
     font-family: "Inter", sans-serif;
-    background-color: #F5F8FF;
     margin: 0;
     padding: 0;
 }
 
+.body {
+    background-color: #F5F8FF;
+}
 
 
 /* Font Colors  */
@@ -178,7 +180,7 @@
 
 /* Plants lover section styles  */
 .plants-lover {
-    margin-bottom: 130PX;
+    margin-bottom: 120PX;
 }
 
 .plants-lover-container {
@@ -204,6 +206,104 @@
     background-color: transparent;
     transform: translateX(130%) translateY(-110%);
 }
+
+
+/* Latest deals section  */
+.latest-deals {
+    margin-bottom: 120px;
+}
+
+.latest-deals-text {
+    text-align: center;
+    margin-bottom: 120px;
+    width: 800px;
+}
+
+.latest-deals-text h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.latest-deals-image-container {
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.left-side {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ana-flower {
+    padding: 65px 45px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url('../assets/deal-ana.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.ana-flower a,
+.bloom-flower a {
+    text-decoration: underline;
+    font-size: 1rem;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+
+.bloom-flower {
+    padding: 65px 45px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url('../assets/deal-bloom.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.right-side {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url('../assets/deal-zabo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    padding: 170px 128px 0px;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+
+.right-side a {
+    font-size: 1.75rem;
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+
+.ana-flower a:hover,
+.bloom-flower a:hover,
+.right-side a:hover {
+    color: #E95A08;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+
 
 
 
@@ -338,7 +438,7 @@
         margin: 0 16px;
     }
 
-    .plants-lover-container img{
+    .plants-lover-container img {
         width: 40%;
     }
 
