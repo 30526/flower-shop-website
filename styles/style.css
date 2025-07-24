@@ -252,6 +252,10 @@
     }
 
     /* plants section  */
+    .plants {
+        margin-bottom: 40px;
+    }
+
     .plants-container {
         margin: 0 16px;
 
@@ -264,13 +268,32 @@
     .card-container {
         text-align: center;
         grid-template-columns: repeat(2, 1fr);
-        /* margin: 0 16px; */
     }
 
     .card {
         width: 170px;
     }
 
+    /* plants lover section  */
+    .plants-lover {
+        margin: 0 16px;
+    }
+
+    .plants-lover-container {
+        flex-direction: column;
+    }
+
+    .plants-lover-container img {
+        width: 100%;
+    }
+
+    #badge {
+        display: none;
+    }
+
+    .plants-lover-text ul {
+        margin-left: 25px;
+    }
 
 
 }
@@ -303,6 +326,20 @@
         text-align: center;
         grid-template-columns: repeat(3, 1fr);
         margin: 0 16px;
+    }
+
+    /* plants lover section  */
+
+    #badge {
+        display: none;
+    }
+
+    .plants-lover {
+        margin: 0 16px;
+    }
+
+    .plants-lover-container img{
+        width: 40%;
     }
 
 }
