@@ -197,6 +197,12 @@
     width: 270px;
 }
 
+.card img:hover {
+    transform: scale(1.03);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
 .card img {
     width: 100%;
     margin-bottom: 30px;
@@ -241,7 +247,7 @@
     position: absolute;
     width: 280px;
     background-color: transparent;
-    animation: rotate 20s  infinite linear;
+    animation: rotate 20s infinite linear;
 }
 
 
