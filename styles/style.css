@@ -22,6 +22,34 @@
 }
 
 
+/* Animation  */
+
+@keyframes rotate {
+    0% {
+        transform: translateX(130%) translateY(-110%) rotate(0deg);
+    }
+
+    20% {
+        transform: translateX(130%) translateY(-110%) rotate (72deg);
+    }
+
+    40% {
+        transform: translateX(130%) translateY(-110%) rotate(144deg);
+    }
+
+    60% {
+        transform: translateX(130%) translateY(-110%) rotate(216deg);
+    }
+
+    80% {
+        transform: translateX(130%) translateY(-110%) rotate(288deg);
+    }
+
+    100% {
+        transform: translateX(130%) translateY(-110%) rotate(360deg);
+    }
+}
+
 /* Font Colors  */
 
 .black {
@@ -68,8 +96,17 @@
     background-color: #E95A08;
     color: #FFFFFF;
     font-weight: 600;
-    border: none;
+    border: 2px solid transparent;
     padding: 16px 0px;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    border: #E95A08 solid 2px;
+    box-sizing: border-box;
+    color: #E95A08;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 /* Header Section Styles  */
@@ -204,7 +241,7 @@
     position: absolute;
     width: 280px;
     background-color: transparent;
-    transform: translateX(130%) translateY(-110%);
+    animation: rotate 20s  infinite linear;
 }
 
 
@@ -340,6 +377,8 @@
     background-color: #f09103;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    color: #FFFFFF;
+    border: transparent solid 2px;
 }
 
 /* Footer styles  */
@@ -373,8 +412,18 @@
 .footer-links-first ul a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 5px;
     margin-bottom: 32px;
-    transform: scale(1.5);
+    transition: all 0.2s ease-in-out;
+}
+
+.footer-links-second ul a:hover,
+.footer-links-first ul a:hover {
+    background-color: #E95A08;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .footer-links-second ul li,
@@ -382,15 +431,7 @@
     margin-bottom: 32px;
 }
 
-.footer-links-second ul a:hover,
-.footer-links-first ul a:hover {
-    background-color: #E95A08;
-    color: #ffffff;
-    transition: all 0.2s ease-in-out;
 
-    border-radius: 5px;
-    padding: 5px;
-}
 
 .footer-icons {
     display: flex;
