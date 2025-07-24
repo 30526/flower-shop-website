@@ -19,6 +19,7 @@
 }
 
 
+
 /* Font Colors  */
 
 .black {
@@ -140,6 +141,10 @@
 
 /* card styles  */
 
+.plants {
+    margin-bottom: 210px;
+}
+
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -171,10 +176,34 @@
 }
 
 
+/* Plants lover section styles  */
+.plants-lover {
+    margin-bottom: 130PX;
+}
 
+.plants-lover-container {
+    gap: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.plants-lover-text h3 {
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
 
+.plants-lover-text ul li {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
 
+#badge {
+    position: absolute;
+    width: 280px;
+    background-color: transparent;
+    transform: translateX(130%) translateY(-110%);
+}
 
 
 
