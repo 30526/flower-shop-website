@@ -452,6 +452,12 @@
     height: 36px;
 }
 
+#tweet {
+    margin-top: 4px;
+    width: 34px;
+    height: 28px;
+}
+
 .footer-icons img:hover {
     transform: scale(1.5);
     transition: all 0.3s ease-in-out;
