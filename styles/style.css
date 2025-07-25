@@ -194,7 +194,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 270px;
 }
 
 .card img:hover {
@@ -523,9 +522,6 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .card {
-        width: 170px;
-    }
 
     /* plants lover section  */
     .plants-lover {
